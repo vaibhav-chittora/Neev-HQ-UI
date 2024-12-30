@@ -33,7 +33,10 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900">
-            Trusted by Healthcare Professionals
+            Trusted by <span></span>
+            <span className="bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text">
+              Healthcare Professionals
+            </span>
           </h2>
           <p className="mt-4 text-xl text-gray-600">
             See what medical professionals are saying about Neev

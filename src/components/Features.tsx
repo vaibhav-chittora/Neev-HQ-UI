@@ -26,12 +26,17 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900">
-            Effortless Documentation For Smarter Healthcare
+            Effortless Documentation For <span></span>
+            <span className="bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text">
+              Smarter Healthcare
+            </span>
           </h2>
           <p className="mt-4 text-xl text-gray-600">
             Automate your documentation process with{" "}
-            <strong className="text-blue-600">Neev</strong> - seamless,
-            accurate, and ready for your EMRs.
+            <strong className="bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text">
+              Neev
+            </strong>{" "}
+            - seamless, accurate, and ready for your EMRs.
           </p>
         </div>
 

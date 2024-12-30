@@ -6,7 +6,6 @@ import Technology from "./components/Technology";
 import Testimonials from "./components/Testimonials";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
-import TeamMembers from "./components/TeamMembers";
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -17,10 +16,8 @@ function App() {
         <Technology />
         <Stats />
         <Testimonials />
-        <div className="">
-          <TeamMembers />
-          <Newsletter />
-        </div>
+        {/* <TeamMembers /> */}
+        <Newsletter />
       </main>
       <Footer />
     </div>

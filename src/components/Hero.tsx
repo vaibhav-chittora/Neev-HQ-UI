@@ -2,7 +2,7 @@ import { Mic, FileText, ArrowRight, Pause, Play } from "lucide-react";
 import { useState } from "react";
 
 export default function Hero() {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   return (
     <div className="pt-24 pb-16 bg-gradient-to-br from-blue-50 to-white">
@@ -10,8 +10,14 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Connecting Patients and Providers Through Precision
+              Connecting <span></span>
+              <span className="bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text">
+                Patients
+              </span>
+              <span> </span>
+              and Providers Through Precision
             </h1>
+
             <p className="mt-6 text-xl text-gray-600 max-w-2xl">
               Making healthcare simple, smart, and more human centric by
               reducing admin work, saving time, and enabling doctors to focus on
